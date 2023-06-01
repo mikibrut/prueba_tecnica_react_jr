@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+section p{
+    align-self: baseline;
+    max-width: 200px;
+}
+
+section img{
+    max-width: 200px ;
+    height: auto;
+}
